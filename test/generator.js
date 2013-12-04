@@ -54,7 +54,9 @@ describe('yutils.generator', function () {
 
 	describe('jsonReader', function() {
 		it('should return a function', function() {
-			var reader = ygutils.jsonReader({});
+			var reader = ygutils.jsonReader({
+				file: 'package.json'
+			});
 
 			reader.should.be.type('function');
 		});

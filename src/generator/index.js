@@ -36,6 +36,12 @@ var _ = require('lodash');
  */
 exports.jsonReader = function jsonReader(options) {
 
+	// set defaults
+	options = _.defaults(options, {
+		base: 'destinationRoot',
+		destination: options.file.replace(/\.json$/, '')
+	});
+
 	// normalize options to the
 	// { toThisGeneratorInstanceProperty: fromJsonFileProperty }
 	var properties;
