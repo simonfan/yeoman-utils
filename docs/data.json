@@ -1,0 +1,116 @@
+{
+    "project": {
+        "name": "yeoman-utils",
+        "version": "0.0.0"
+    },
+    "files": {
+        "src/generator/index.js": {
+            "name": "src/generator/index.js",
+            "modules": {},
+            "classes": {
+                "utils": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/yeoman-utils.js": {
+            "name": "src/yeoman-utils.js",
+            "modules": {
+                "YeomanUtils": 1
+            },
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "YeomanUtils": {
+            "name": "YeomanUtils",
+            "submodules": {},
+            "classes": {
+                "utils": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "src/generator/index.js",
+            "line": 3,
+            "description": "CJS module."
+        }
+    },
+    "classes": {
+        "utils": {
+            "name": "utils",
+            "shortname": "utils",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "YeomanUtils",
+            "file": "src/generator/index.js",
+            "line": 3,
+            "static": 1
+        }
+    },
+    "classitems": [
+        {
+            "file": "src/generator/index.js",
+            "line": 13,
+            "description": "Creates a .json file reader.",
+            "itemtype": "method",
+            "name": "jsonReader",
+            "params": [
+                {
+                    "name": "options",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "file",
+                    "description": "\n         Name of the file. Relative to this.destinationRoot().",
+                    "type": "String"
+                },
+                {
+                    "name": "properties",
+                    "description": "\n         Object: A map of how the properties read from the .json file\n           should be made available on `this`. { fromJson: toThis }\n         Array: Properties will be made available on `this` using the\n           same names they are founf on the json file.\n         Boolean(true): Store all properties with their names directly\n           on `this`.",
+                    "type": "Object|Array|Boolean",
+                    "optional": true
+                },
+                {
+                    "name": "destination",
+                    "description": "\n         Store the whole object on `this[destination]`",
+                    "type": "String",
+                    "optional": true
+                },
+                {
+                    "name": "base",
+                    "description": "defaults to 'destinationRoot'\n         Name of the method to be called (`this.destinationRoot()`)\n         to get the base path for the file.",
+                    "type": "String",
+                    "optional": true
+                }
+            ],
+            "class": "utils"
+        },
+        {
+            "file": "src/generator/index.js",
+            "line": 49,
+            "description": "Creates a package.json reader.",
+            "itemtype": "method",
+            "name": "packageJsonReader",
+            "params": [
+                {
+                    "name": "options",
+                    "description": "\n    options: {\n        properties: {Object}, // save package.json properties on `this`\n\t       destination: {Object|String}\n            Object: sets properties on `this`\n            String: sets `this[destination]` to have all package.json data.\n        }",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "readPackageJsonStep",
+                "type": "Function"
+            },
+            "class": "utils"
+        }
+    ],
+    "warnings": []
+}

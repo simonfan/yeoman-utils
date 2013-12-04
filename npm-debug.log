@@ -1,0 +1,200 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/home/simon/node_modules/bin/npm', 'publish' ]
+2 info using npm@1.3.13
+3 info using node@v0.10.21
+4 verbose publish [ '.' ]
+5 verbose cache add [ '.', null ]
+6 verbose cache add name=undefined spec="." args=[".",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '.',
+7 verbose parsed url   path: '.',
+7 verbose parsed url   href: '.' }
+8 silly lockFile 3a52ce78- .
+9 verbose lock . /home/simon/.npm/3a52ce78-.lock
+10 verbose tar pack [ '/home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/tmp.tgz',
+10 verbose tar pack   '.' ]
+11 verbose tarball /home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/tmp.tgz
+12 verbose folder .
+13 info prepublish yeoman-utils@0.0.0
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. /home/simon/.npm/1f1177db-tar.lock
+16 silly lockFile 0c7e9898-01845-0-8796210724394768-tmp-tgz tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/tmp.tgz
+17 verbose lock tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/tmp.tgz /home/simon/.npm/0c7e9898-01845-0-8796210724394768-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile 0c7e9898-01845-0-8796210724394768-tmp-tgz tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/tmp.tgz
+21 silly lockFile 0c7e9898-01845-0-8796210724394768-tmp-tgz tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/tmp.tgz
+22 verbose tar unpack /home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/tmp.tgz
+23 silly lockFile 9a1d63bd-01845-0-8796210724394768-package tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/package
+24 verbose lock tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/package /home/simon/.npm/9a1d63bd-01845-0-8796210724394768-package.lock
+25 silly lockFile 0c7e9898-01845-0-8796210724394768-tmp-tgz tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/tmp.tgz
+26 verbose lock tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/tmp.tgz /home/simon/.npm/0c7e9898-01845-0-8796210724394768-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm extractEntry .npmignore
+30 silly gunzTarPerm extractEntry README.md
+31 silly gunzTarPerm extractEntry Gruntfile.js
+32 silly gunzTarPerm extractEntry docs/api.js
+33 silly gunzTarPerm extractEntry docs/assets/css/external-small.png
+34 silly gunzTarPerm extractEntry docs/assets/css/logo.png
+35 silly gunzTarPerm extractEntry docs/assets/css/main.css
+36 silly gunzTarPerm extractEntry docs/assets/favicon.png
+37 silly gunzTarPerm extractEntry docs/assets/img/spinner.gif
+38 silly gunzTarPerm extractEntry docs/assets/index.html
+39 silly gunzTarPerm extractEntry docs/assets/js/api-filter.js
+40 silly gunzTarPerm extractEntry docs/assets/js/api-list.js
+41 silly gunzTarPerm extractEntry docs/assets/js/api-search.js
+42 silly gunzTarPerm extractEntry docs/assets/js/apidocs.js
+43 silly gunzTarPerm extractEntry docs/assets/js/yui-prettify.js
+44 silly gunzTarPerm extractEntry docs/assets/vendor/prettify/prettify-min.js
+45 silly gunzTarPerm extractEntry docs/assets/vendor/prettify/CHANGES.html
+46 silly gunzTarPerm extractEntry docs/assets/vendor/prettify/COPYING
+47 silly gunzTarPerm extractEntry docs/assets/vendor/prettify/README.html
+48 silly gunzTarPerm extractEntry docs/assets/vendor/prettify/prettify-min.css
+49 silly gunzTarPerm extractEntry docs/classes/index.html
+50 silly gunzTarPerm extractEntry docs/classes/utils.html
+51 silly gunzTarPerm extractEntry docs/data.json
+52 silly gunzTarPerm extractEntry docs/files/index.html
+53 silly gunzTarPerm extractEntry docs/files/src_generator_index.js.html
+54 silly gunzTarPerm extractEntry docs/files/src_yeoman-utils.js.html
+55 silly gunzTarPerm extractEntry docs/index.html
+56 silly gunzTarPerm extractEntry docs/modules/YeomanUtils.html
+57 silly gunzTarPerm extractEntry docs/modules/index.html
+58 silly gunzTarPerm extractEntry .editorconfig
+59 silly gunzTarPerm extractEntry index.html
+60 silly gunzTarPerm extractEntry src/yeoman-utils.js
+61 silly gunzTarPerm extractEntry src/generator/index.js
+62 silly gunzTarPerm extractEntry .jshintrc
+63 silly gunzTarPerm extractEntry test/generator.js
+64 silly gunzTarPerm extractEntry test/temp/package.json
+65 silly lockFile 9a1d63bd-01845-0-8796210724394768-package tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/package
+66 silly lockFile 9a1d63bd-01845-0-8796210724394768-package tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/package
+67 silly lockFile 0c7e9898-01845-0-8796210724394768-tmp-tgz tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/tmp.tgz
+68 silly lockFile 0c7e9898-01845-0-8796210724394768-tmp-tgz tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/tmp.tgz
+69 verbose tar pack [ '/home/simon/.npm/yeoman-utils/0.0.0/package.tgz',
+69 verbose tar pack   '/home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/package' ]
+70 verbose tarball /home/simon/.npm/yeoman-utils/0.0.0/package.tgz
+71 verbose folder /home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/package
+72 silly lockFile 9a1d63bd-01845-0-8796210724394768-package tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/package
+73 verbose lock tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/package /home/simon/.npm/9a1d63bd-01845-0-8796210724394768-package.lock
+74 silly lockFile 354867f5-m-yeoman-utils-0-0-0-package-tgz tar:///home/simon/.npm/yeoman-utils/0.0.0/package.tgz
+75 verbose lock tar:///home/simon/.npm/yeoman-utils/0.0.0/package.tgz /home/simon/.npm/354867f5-m-yeoman-utils-0-0-0-package-tgz.lock
+76 silly lockFile 9a1d63bd-01845-0-8796210724394768-package tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/package
+77 silly lockFile 9a1d63bd-01845-0-8796210724394768-package tar:///home/simon/tmp/npm-30140-d9zYIn40/1386132201845-0.8796210724394768/package
+78 silly lockFile 354867f5-m-yeoman-utils-0-0-0-package-tgz tar:///home/simon/.npm/yeoman-utils/0.0.0/package.tgz
+79 silly lockFile 354867f5-m-yeoman-utils-0-0-0-package-tgz tar:///home/simon/.npm/yeoman-utils/0.0.0/package.tgz
+80 silly lockFile 04f7298a-n-npm-yeoman-utils-0-0-0-package /home/simon/.npm/yeoman-utils/0.0.0/package
+81 verbose lock /home/simon/.npm/yeoman-utils/0.0.0/package /home/simon/.npm/04f7298a-n-npm-yeoman-utils-0-0-0-package.lock
+82 silly lockFile 04f7298a-n-npm-yeoman-utils-0-0-0-package /home/simon/.npm/yeoman-utils/0.0.0/package
+83 silly lockFile 04f7298a-n-npm-yeoman-utils-0-0-0-package /home/simon/.npm/yeoman-utils/0.0.0/package
+84 verbose tar unpack /home/simon/.npm/yeoman-utils/0.0.0/package.tgz
+85 silly lockFile 7063fff9-n-npm-yeoman-utils-0-0-0-package tar:///home/simon/.npm/yeoman-utils/0.0.0/package
+86 verbose lock tar:///home/simon/.npm/yeoman-utils/0.0.0/package /home/simon/.npm/7063fff9-n-npm-yeoman-utils-0-0-0-package.lock
+87 silly lockFile 354867f5-m-yeoman-utils-0-0-0-package-tgz tar:///home/simon/.npm/yeoman-utils/0.0.0/package.tgz
+88 verbose lock tar:///home/simon/.npm/yeoman-utils/0.0.0/package.tgz /home/simon/.npm/354867f5-m-yeoman-utils-0-0-0-package-tgz.lock
+89 silly gunzTarPerm modes [ '755', '644' ]
+90 silly gunzTarPerm extractEntry package.json
+91 silly gunzTarPerm extractEntry .npmignore
+92 silly gunzTarPerm extractEntry README.md
+93 silly gunzTarPerm extractEntry Gruntfile.js
+94 silly gunzTarPerm extractEntry .editorconfig
+95 silly gunzTarPerm extractEntry .jshintrc
+96 silly gunzTarPerm extractEntry docs/api.js
+97 silly gunzTarPerm extractEntry docs/assets/css/external-small.png
+98 silly gunzTarPerm extractEntry docs/assets/css/logo.png
+99 silly gunzTarPerm extractEntry docs/assets/css/main.css
+100 silly gunzTarPerm extractEntry docs/assets/favicon.png
+101 silly gunzTarPerm extractEntry docs/assets/img/spinner.gif
+102 silly gunzTarPerm extractEntry docs/assets/index.html
+103 silly gunzTarPerm extractEntry docs/assets/js/api-filter.js
+104 silly gunzTarPerm extractEntry docs/assets/js/api-list.js
+105 silly gunzTarPerm extractEntry docs/assets/js/api-search.js
+106 silly gunzTarPerm extractEntry docs/assets/js/apidocs.js
+107 silly gunzTarPerm extractEntry docs/assets/js/yui-prettify.js
+108 silly gunzTarPerm extractEntry docs/assets/vendor/prettify/prettify-min.js
+109 silly gunzTarPerm extractEntry docs/assets/vendor/prettify/CHANGES.html
+110 silly gunzTarPerm extractEntry docs/assets/vendor/prettify/COPYING
+111 silly gunzTarPerm extractEntry docs/assets/vendor/prettify/README.html
+112 silly gunzTarPerm extractEntry docs/assets/vendor/prettify/prettify-min.css
+113 silly gunzTarPerm extractEntry docs/classes/index.html
+114 silly gunzTarPerm extractEntry docs/classes/utils.html
+115 silly gunzTarPerm extractEntry docs/data.json
+116 silly gunzTarPerm extractEntry docs/files/index.html
+117 silly gunzTarPerm extractEntry docs/files/src_generator_index.js.html
+118 silly gunzTarPerm extractEntry docs/files/src_yeoman-utils.js.html
+119 silly gunzTarPerm extractEntry docs/index.html
+120 silly gunzTarPerm extractEntry docs/modules/YeomanUtils.html
+121 silly gunzTarPerm extractEntry docs/modules/index.html
+122 silly gunzTarPerm extractEntry index.html
+123 silly gunzTarPerm extractEntry src/yeoman-utils.js
+124 silly gunzTarPerm extractEntry src/generator/index.js
+125 silly gunzTarPerm extractEntry test/generator.js
+126 silly gunzTarPerm extractEntry test/temp/package.json
+127 silly lockFile 7063fff9-n-npm-yeoman-utils-0-0-0-package tar:///home/simon/.npm/yeoman-utils/0.0.0/package
+128 silly lockFile 7063fff9-n-npm-yeoman-utils-0-0-0-package tar:///home/simon/.npm/yeoman-utils/0.0.0/package
+129 silly lockFile 354867f5-m-yeoman-utils-0-0-0-package-tgz tar:///home/simon/.npm/yeoman-utils/0.0.0/package.tgz
+130 silly lockFile 354867f5-m-yeoman-utils-0-0-0-package-tgz tar:///home/simon/.npm/yeoman-utils/0.0.0/package.tgz
+131 verbose chmod /home/simon/.npm/yeoman-utils/0.0.0/package.tgz 644
+132 verbose chown /home/simon/.npm/yeoman-utils/0.0.0/package.tgz [ 1000, 1000 ]
+133 silly lockFile 3a52ce78- .
+134 silly lockFile 3a52ce78- .
+135 silly publish { name: 'yeoman-utils',
+135 silly publish   main: './src/yeoman-utils',
+135 silly publish   version: '0.0.0',
+135 silly publish   description: 'Some further utility for yeoman generators',
+135 silly publish   repository:
+135 silly publish    { type: 'git',
+135 silly publish      url: 'https://github.com/simonfan/yeoman-utils.git' },
+135 silly publish   dependencies: { lodash: '~2.4.1' },
+135 silly publish   devDependencies:
+135 silly publish    { grunt: '~0.4.2',
+135 silly publish      'grunt-contrib-watch': '~0.5.3',
+135 silly publish      'grunt-contrib-yuidoc': '~0.5.0',
+135 silly publish      'grunt-contrib-jshint': '~0.7.2',
+135 silly publish      should: '~2.1.0',
+135 silly publish      mocha: '~1.15.0',
+135 silly publish      'grunt-simple-mocha': '~0.4.0',
+135 silly publish      'yeoman-generator': '~0.14.0' },
+135 silly publish   scripts: { test: 'mocha' },
+135 silly publish   readme: '# yeoman-utils\n\nSome further utility for yeoman generators\n',
+135 silly publish   readmeFilename: 'README.md',
+135 silly publish   bugs: { url: 'https://github.com/simonfan/yeoman-utils/issues' },
+135 silly publish   homepage: 'https://github.com/simonfan/yeoman-utils',
+135 silly publish   _id: 'yeoman-utils@0.0.0',
+135 silly publish   dist: { shasum: '3262e5f9c40db0f69cb5ff1be495727e800ca94f' },
+135 silly publish   _from: '.' }
+136 verbose url raw yeoman-utils
+137 verbose url resolving [ 'https://registry.npmjs.org/', './yeoman-utils' ]
+138 verbose url resolved https://registry.npmjs.org/yeoman-utils
+139 info trying registry request attempt 1 at 02:43:22
+140 http PUT https://registry.npmjs.org/yeoman-utils
+141 http 409 https://registry.npmjs.org/yeoman-utils
+142 verbose url raw yeoman-utils
+143 verbose url resolving [ 'https://registry.npmjs.org/', './yeoman-utils' ]
+144 verbose url resolved https://registry.npmjs.org/yeoman-utils
+145 info trying registry request attempt 1 at 02:43:24
+146 http GET https://registry.npmjs.org/yeoman-utils
+147 http 200 https://registry.npmjs.org/yeoman-utils
+148 error publish fail Cannot publish over existing version.
+148 error publish fail Update the 'version' field in package.json and try again.
+148 error publish fail
+148 error publish fail If the previous version was published in error, see:
+148 error publish fail     npm help unpublish
+148 error publish fail
+148 error publish fail To automatically increment version numbers, see:
+148 error publish fail     npm help version
+149 error System Linux 3.11.0-13-generic-tuxonice
+150 error command "node" "/home/simon/node_modules/bin/npm" "publish"
+151 error cwd /home/simon/Desktop/code/node/yeoman-utils
+152 error node -v v0.10.21
+153 error npm -v 1.3.13
+154 error code EPUBLISHCONFLICT
+155 verbose exit [ 1, true ]

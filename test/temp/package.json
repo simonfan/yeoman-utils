@@ -1,0 +1,9 @@
+{
+	"name": "mock-module",
+	"version": "1.0.8",
+	"dependencies": {
+		"lodash": "*"
+	},
+
+	"comments": "The generator test file depends on this."
+}
